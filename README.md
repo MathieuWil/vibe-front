@@ -1,12 +1,17 @@
-# React + Vite
+# Vibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet Front a pour but de recréer un clone de Spotify, permettant la recherche d'informations sur les artistes de la plateforme.
 
-Currently, two official plugins are available:
+Back-end disponible ici :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [NodeJS - Vibe](https://github.com/MathieuWil/vibe)
 
-## Expanding the ESLint configuration
+## Installation du projet
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Ce rendre dans le dossier souhaité depuis un terminal et :
+  - npm create vite@latest vibe-front -- --template react
+  - cd vibe-front
+  - npm install
+
+Cela permet d'initialiser un projet React, cloner le repo par la suite et lancer le projet avec :
+  - npm run dev
